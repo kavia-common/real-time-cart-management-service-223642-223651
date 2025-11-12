@@ -1,0 +1,4 @@
+{
+    "command": "pytest",
+    "working_directory": "/home/kavia/workspace/code-generation/real-time-cart-management-service-223642-223651/lambda_cart_manager"
+}
