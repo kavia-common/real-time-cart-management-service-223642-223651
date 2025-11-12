@@ -10,6 +10,7 @@ from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 
 from src.auth.dependencies import get_current_user
+from src.api.routes import cart_router
 
 # Application metadata for OpenAPI documentation
 app = FastAPI(
@@ -52,6 +53,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include cart routes
+app.include_router(cart_router)
 
 
 @app.get(
