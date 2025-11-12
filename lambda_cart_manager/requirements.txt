@@ -27,7 +27,7 @@ pyflakes==3.3.2
 Pygments==2.19.1
 pytest==8.3.5
 python-dotenv==1.1.0
-python-multipart==0.0.20
+python-multipart==0.0.9
 PyYAML==6.0.2
 rich==14.0.0
 rich-toolkit==0.14.1
@@ -41,3 +41,8 @@ uvicorn==0.34.0
 uvloop==0.21.0
 watchfiles==1.0.5
 websockets==15.0.1
+motor==3.4.0
+pymongo==4.8.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+mangum==0.17.0
